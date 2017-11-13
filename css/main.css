@@ -17,6 +17,19 @@ h1 {
   text-align: center;
 }
 
+#select {
+  border-radius: 7px;
+  font-size: 18px;
+  outline: none;
+  padding: 7px;
+}
+
+#select:hover {
+  cursor: pointer;
+  background:  #1ABC9C;
+  color: #fff;
+}
+
 .container {
   margin: 35px 0px 0px 30px;
   text-align: center;

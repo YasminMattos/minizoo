@@ -1,14 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  background: #AFEEEE;
 }
 
 h1 {
   color: #2E86C1;
   font-family: 'Luckiest Guy', cursive;
-  font-size: 52px;
+  font-size: 70px;
   margin-top: 35px;
   text-align: center;
+  text-shadow: #fff -1px 1px, #fff -2px 2px, #2ecc71 -7px 7px, #2ecc71 -8px 8px, #2ecc71 -9px 9px;
   text-transform: uppercase;
 }
 
@@ -18,16 +20,13 @@ h1 {
 }
 
 #select {
+  background: #1ABC9C;
   border-radius: 7px;
+  cursor: pointer;
+  color: #fff;
   font-size: 18px;
   outline: none;
   padding: 7px;
-}
-
-#select:hover {
-  cursor: pointer;
-  background:  #1ABC9C;
-  color: #fff;
 }
 
 .container {
@@ -38,7 +37,32 @@ h1 {
 }
 
 .animal {
+  border-radius: 14px;
   height: 300px;
   margin: 10px;
   width: 400px;
+}
+ /*animals' filters*/
+.sepia {
+  filter: sepia(1);
+  -ms-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -webkit-filter: sepia(1);
+}
+
+.white-black {
+  filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.negative-colors {
+  filter: invert(0.8);
+  -ms-filter: invert(0.8);
+  -moz-filter: invert(0.8);
+  -o-filter: invert(0.8);
+  -webkit-filter: invert(0.8);
 }
